@@ -8,7 +8,7 @@ categories:
 - cybersecurity
 ---
 
-OSINT adalah salah satu teknik untuk mencari tahu informasi dari suatu hal dan sangat erat berhubungannya dengan dunia cybersecurity. OSINT adalah teknik yang wajib untuk diketahui ketika ingin memasuki dunia cybersecurity.
+OSINT adalah salah satu teknik untuk mencari tahu informasi dari suatu hal dan sangat erat hubungannya dengan dunia cybersecurity. OSINT adalah teknik yang wajib untuk diketahui ketika ingin memasuki dunia cybersecurity.
 
 Menurut informasi-informasi yang saya dapatkan tentang open source intelligence adalah:
 - Informasi yang keberadaannya dapat diakses oleh publik.
@@ -46,16 +46,14 @@ Ethical hacker profesional menggunakan open source intelligence terbuka untuk me
 
 Dalam banyak kasus, pekerjaan ini memerlukan analisis yang kuat untuk mengidentifikasi dan mengkorelasikan beberapa titik data untuk memvalidasi ancaman sebelum tindakan diambil.
 
-Salah satu hal yang paling penting untuk dipahami tentang open source intelligence adalah sering digunakan dalam kombinasi dengan subtipe kecerdasan lainnya. Informasi dari sumber yang tertutup seperti forum komunitas dark web dan komunitas yang berbagi informasi eksternal secara teratur digunakan untuk memfilter dan memverifikasi informasi sumber terbuka.
+Salah satu hal yang paling penting untuk dipahami tentang open source intelligence adalah sering digunakan dalam kombinasi dengan subtipe open source intelligence lainnya. Informasi dari sumber yang tertutup seperti forum komunitas dark web dan komunitas yang berbagi informasi eksternal.
 
 ##### Sisi Gelap Open Source Intelligence
 
-Pada titik ini, saatnya untuk mengatasi masalah besar kedua dengan intelijen open source: jika sesuatu tersedia untuk analis intelijen, itu juga tersedia untuk aktor ancaman.
+Pelaku ancaman menggunakan alat dan teknik open source intelligence untuk mengidentifikasi target mengeksploitasi kelemahan dalam jaringan target. Setelah kerentanan diidentifikasi, seringkali merupakan proses yang sangat cepat dan sederhana untuk mengeksploitasinya dan mencapai berbagai tujuan jahat.
 
-Pelaku ancaman menggunakan alat dan teknik intelijen sumber terbuka untuk mengidentifikasi target potensial dan mengeksploitasi kelemahan dalam jaringan target. Setelah kerentanan diidentifikasi, seringkali merupakan proses yang sangat cepat dan sederhana untuk mengeksploitasinya dan mencapai berbagai tujuan jahat.
+Proses ini adalah alasan utama mengapa begitu banyak usaha kecil dan menengah diretas setiap tahun. Ini bukan karena kelompok ancaman secara khusus tertarik pada mereka, melainkan karena kerentanan dalam arsitektur jaringan atau situs web mereka ditemukan menggunakan teknik intelijen open source sederhana.
 
-Proses ini adalah alasan utama mengapa begitu banyak usaha kecil dan menengah diretas setiap tahun. Ini bukan karena kelompok ancaman secara khusus tertarik pada mereka, melainkan karena kerentanan dalam arsitektur jaringan atau situs web mereka ditemukan menggunakan teknik intelijen open source sederhana. Singkatnya, mereka adalah sasaran empuk.
+Dan open source intelligence tidak hanya memungkinkan serangan teknis pada sistem dan jaringan. Pelaku ancaman juga mencari informasi tentang individu dan organisasi yang biasa disebut teknik social engineering menggunakan phishing email, telepon atau pesan suara dan SMS. Seringkali, informasi yang tampaknya tidak berbahaya yang dibagikan melalui jejaring sosial dan blog dapat digunakan untuk mengembangkan social engineering, yang pada gilirannya digunakan untuk mengelabui target.
 
-Dan open source intelligence tidak hanya memungkinkan serangan teknis pada sistem dan jaringan. Pelaku ancaman juga mencari informasi tentang individu dan organisasi yang teknik social engineering menggunakan phishing email, telepon atau pesan suara dan SMS. Seringkali, informasi yang tampaknya tidak berbahaya yang dibagikan melalui jejaring sosial dan blog dapat digunakan untuk mengembangkan social engineering, yang pada gilirannya digunakan untuk mengelabui pengguna.
-
-Inilah sebabnya mengapa menggunakan open source intelligence untuk tujuan keamanan sangat penting. Ini memberi kita kesempatan untuk menemukan dan memperbaiki kelemahan di jaringan organisasi dan menghapus informasi sensitif sebelum pelaku ancaman menggunakan alat dan teknik yang sama untuk mengeksploitasinya.
+Inilah sebabnya mengapa menggunakan open source intelligence untuk tujuan keamanan sangat penting. Yaitu memberi kita kesempatan untuk menemukan dan memperbaiki kelemahan di jaringan organisasi dan menghapus informasi sensitif sebelum pelaku ancaman menggunakan alat dan teknik yang sama untuk mengeksploitasinya.
