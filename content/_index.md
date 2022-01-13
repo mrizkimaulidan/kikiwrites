@@ -1,0 +1,1 @@
+Situs ini berisi tulisan, opini dan juga merupakan dokumentasi saya pribadi ketika sedang belajar atau membagikan sesuatu.
