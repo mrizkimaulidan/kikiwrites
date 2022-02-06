@@ -25,23 +25,23 @@ Dia bakal ngerunning ulang kalau dari beberapa folder yang dia watch ada perubah
 
 Pertama kita harus download utility airnya. Dan air ini juga cross platform, bisa dipake di berbagai macam sistem operasi. Disini saya mempraktekan di sistem operasi Windows, jadi tinggal download file `.exe` di halaman release di sini https://github.com/cosmtrek/air/releases.
 
-![Image 1](https://i.ibb.co/YN293QH/1.png)
+![Image 1](blog/live-reload-aplikasi-golang-dengan-air/1.png)
 
 Tinggal pilih aja sesuaikan sistem operasi yang sedang kalian pakai. Karena di sini saya pake Windows ya saya download file dengan ekstensi `.exe`.
 
-![Image 2](https://i.ibb.co/8X8jd9x/2.png)
+![Image 2](blog/live-reload-aplikasi-golang-dengan-air/2.png)
 
 Nah setelah terdownload rename aja filenya, setelah itu bisa masukin ke path environment variables kalau mau pakai secara global. Kalau untuk praktek di sini saya akan langsung aja pindahin ke folder directory aplikasi Go saya.
 
-![Image 3](https://i.ibb.co/4fhqG05/3.png)
+![Image 3](blog/live-reload-aplikasi-golang-dengan-air/3.png)
 
 Terlihat di foldernya ada file `air.exe` yang sudah saya pindahkan ke folder directory aplikasi Go saya.
 
 Tinggal buka terminal dan ketik aja `air.exe` untuk ngerunning utility nya. Di sini saya pakai Git Bash, jadi untuk ngerunningnya dengan perintah `/air.exe`
 
-![GIF](https://i.ibb.co/KbwBHYW/ezgif-com-gif-maker.gif)
+![GIF](blog/live-reload-aplikasi-golang-dengan-air/4.gif)
 
-![GIF](https://i.ibb.co/SvNCyMf/ezgif-com-gif-maker.gif)
+![GIF](blog/live-reload-aplikasi-golang-dengan-air/5.gif)
 
 Nah mekanismenya dia bakal ngebuat folder dengan nama `tmp` isinya itu binary file yang dari file `main.go`. Jadi sekarang bebas deh setiap kita ngelakuin beberapa perubahan di file yang telah diwatch akan otomatis ngebuild dan ngerunning ulang oleh utility air nya.
 

@@ -22,19 +22,19 @@ Cari website target, biasanya kita bisa melakukan testing misconfiguration ini p
 
 Lalu ubah input name menjadi array pada tab inspect element.
 
-![Image 1](https://i.imgur.com/hzw6SB5.png)
+![Image 1](blog/laravel-env-information-disclosure/1.png)
 
 Login menggunakan kredensial random lalu klik login.
 
-![Image 2](https://i.imgur.com/EHlPWGG.png)
+![Image 2](blog/laravel-env-information-disclosure/2.png)
 
 Nah nanti tampilannya berubah menjadi error seperti di bawah ini.
 
-![Image 3](https://i.imgur.com/e4LRMw1.png)
+![Image 3](blog/laravel-env-information-disclosure/3.png)
 
 Scroll aja ke bawah sampai ketemu variabel environment.
 
-![Image 4](https://i.imgur.com/Esx7kry.png)
+![Image 4](blog/laravel-env-information-disclosure/4.png)
 
 Jadi akan terlihat mulai dari `APP_KEY`, `DB_DATABASE`, `DB_USERNAME`, `DB_PASSWORD` dll. Setelah itu apa yang kita lakukan? Ya mungkin bisa mencoba akses ke database tersebut dengan remote mysql (jika port 3306 open) dan melakukan upload shell backdoor menggunakan into outfile method atau yang lainnya.
 
