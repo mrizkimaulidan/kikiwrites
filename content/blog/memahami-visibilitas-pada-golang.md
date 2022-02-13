@@ -98,6 +98,30 @@ Oke sekarang kita akan pisahin nih ke file yang berbeda sekarang kita buat file 
 Dan jangan lupa juga ya buat projeknya menjadi module menggunakan command `go mod init visibility`.
 
 ```go
+// entity.go
+package entity
+
+import "fmt"
+
+type Book struct {
+	Title    string
+	quantity int
+}
+
+type person struct {
+	//
+}
+
+func (b *Book) GetTitle() string {
+	return b.Title
+}
+
+func (b *Book) getQuantity() int {
+	return b.quantity
+}
+```
+
+```go
 // main.go
 package main
 
