@@ -1,7 +1,7 @@
 ---
-title: "Memahami Visibilitas Pada Golang"
+title: "Memahami Visibilitas Pada Go"
 date: 2022-02-12T19:51:00+08:00 # example 2020-01-01T24:00:00+08:00. Date should be the current time! you need insert it manually.
-description: "Memahami visibilitas pada bahasa pemrograman golang"
+description: "Memahami visibilitas pada bahasa pemrograman Go"
 tags:
 - go
 - golang
@@ -9,7 +9,7 @@ categories:
 - programming
 ---
 
-Di Golang untuk hak akses suatu properti atau method itu ga ada yang namanya `Public`, `Protected` dan `Private`. Yang ada hanyalah `Exported` dan `Unexported`.
+Di Go untuk hak akses suatu properti atau method itu ga ada yang namanya `Public`, `Protected` dan `Private`. Yang ada hanyalah `Exported` dan `Unexported`.
 
 Simpelnya Exported itu suatu properti atau method yang bisa dipakai oleh package yang lain, sedangkan Unexported tidak bisa dipakai oleh package yang lain.
 
@@ -89,7 +89,7 @@ func main() {
 }
 ```
 
-![GIF 1](blog/memahami-visibilitas-pada-golang/1.gif)
+![GIF 1](blog/memahami-visibilitas-pada-go/1.gif)
 
 Well dari kode di atas jika dijalankan dalam satu package yang sama ga ada masalah. Tapi jika dijalankan di file yang berbeda apa yang akan terjadi? Nah kita lihat selanjutnya.
 
@@ -121,7 +121,7 @@ func main() {
 }
 ```
 
-![GIF 2](blog/memahami-visibilitas-pada-golang/2.gif)
+![GIF 2](blog/memahami-visibilitas-pada-go/2.gif)
 
 Apa yang terjadi jika kode di atas dijalankan? Ketika dijalankan akan muncul error seperti dibawah ini:
 
