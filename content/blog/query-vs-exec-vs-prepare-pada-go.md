@@ -420,3 +420,8 @@ $ go test -v -run=TestPrepareContext
 === RUN TestPrepareContext
 --- PASS: TestPrepareContext (0.00s)
 ```
+
+Referensi:
+- https://pkg.go.dev/database/sql
+- https://zetcode.com/golang/mysql/
+- https://tutorialedge.net/golang/golang-mysql-tutorial/
